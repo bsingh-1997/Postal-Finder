@@ -1,0 +1,68 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
+.cintainer{
+    width: 90vw;
+    overflow: scroll;
+    margin-left: 5%;
+}
+.cont{
+    background-color: aliceblue;
+    border: 1px solid ;
+    width: 75vw;
+    margin: 1vh 11vw;
+    border-radius: 5px;
+}
+.formm{
+    display: block;
+    height: 21vh;
+    /* padding: 10vh 0; */
+    padding-top: 9vh;
+    
+    /* background: blue; */
+}
+input{
+    margin: 12px 33px;
+    border-radius: 6px;
+    /* border: none; */
+    height: 21px;
+    width: 40vw;
+    border: .1px solid;
+}
+button{
+    border: .1px solid;
+    /* border: none; */
+    border-radius: 5px;
+    width: 14vw;
+    height: 4vh;
+    min-width: 84px;
+    background-color: white;
+}
+button:hover{
+    background-color: rgb(96, 96, 255);
+    color: white;
+    transition: 0.5s;
+    border-radius: .5px solid black;
+    /* transform: scale(1.1); */
+}
+.desc{
+    margin-top: 3vh;
+    padding: 0 10vw;
+    /* font-size: large; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: regular 400 Italic ;
+    /* font-size: medium; */
+}
+@media screen and (max-width:500px) {
+    .navv {
+        display: inline-flex;
+        /* background-color: black; */
+        color: white;
+        width: 53%;
+        padding-left: 45%;
+        height: 25px;
+    }
+    .texxt {
+        padding: 11vh 10vw;
+        color: white;
+        font-size: large;
+    }
+}
