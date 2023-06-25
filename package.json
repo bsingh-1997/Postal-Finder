@@ -2,7 +2,7 @@
   "name": "api-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bsingh-1997.github.io/api-project",
+  "homepage": "https://bsingh-1997.github.io/Postal-Finder",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
