@@ -1,24 +1,116 @@
 .heroo{
-    background-image: url('https://th.bing.com/th/id/R.ef5d2e19a02e3d2bf9ec84255d1428b9?rik=qh09T3BnaiXvbg&riu=http%3a%2f%2fpapers.co%2fwallpaper%2fpapers.co-vc96-triangle-of-blue-patterns-36-3840x2400-4k-wallpaper.jpg&ehk=EsODwyqUQlMjJO2l7QQRO5tSiT%2bGxSs8wdHu9HdVoAM%3d&risl=&pid=ImgRaw&r=0');
-    height: 260px;
+    /* background-image: url('https://th.bing.com/th/id/R.ef5d2e19a02e3d2bf9ec84255d1428b9?rik=qh09T3BnaiXvbg&riu=http%3a%2f%2fpapers.co%2fwallpaper%2fpapers.co-vc96-triangle-of-blue-patterns-36-3840x2400-4k-wallpaper.jpg&ehk=EsODwyqUQlMjJO2l7QQRO5tSiT%2bGxSs8wdHu9HdVoAM%3d&risl=&pid=ImgRaw&r=0'); */
+    /* height: 20vh; */
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
+    /* background-color: black; */
+    background-image: linear-gradient(90deg,#cc0000,#990000);
     
 }
 .navv{
     display: inline-flex;
     /* background-color: black; */
     color: white;
-    width: 35%;
-    padding-left: 60%;
+    width: 80%;
+    /* padding-left: 60%; */
     height: 25px;
 }
-.compo{
-    margin-right: 4vw;
+.compo {
+    /* margin-right: 1vw; */
+    width: 15vw;
 }
-.texxt{
+/* .texxt{
     padding: 17vh 10vw;
     color: white;
     font-size: large;
+} */
+.mainlogo{
+    height:10vh;
+    /* padding-right: 70%; */
+}
+.buttons{
+    padding-top: 3vh;
+    margin-left: 43%;
+    display: inline-flex;
+    height: 8vh;
+}
+.buttnbar{
+    background-color: beige;
+    height: 60px;
+}
+.barul{
+    display: inline-flex;
+    list-style: none;
+    padding-top: 2vh;
+}
+/* ul{
+    display: inline-flex;
+    list-style: none;
+    padding-top: 2vh;
+} */
+li{
+    margin-right: 5vw;
+    color: #cc0000;
+    
+}
+li:hover{
+    color: black;
+    transition: 0.2s ease-in;
+}
+.logotxt{
+    padding-top: 3.5vh;
+}
+@media screen and (max-width:800px) {
+    .navv {
+        color: #fff;
+        display: contents;
+        height: 10vh;
+        padding-left: 38%;
+        /* width: 52%; */
+    }
+    .texxt {
+        color: #fff;
+        font-size: large;
+        padding: 9vh 10vw;
+    }
+    /* .buttons {
+        padding-bottom: 2vh;
+        padding-top: 1vh;
+        margin-left: 5%;
+        display: inline-flex;
+    } */
+    .buttons {
+        padding-bottom: 2vh;
+        padding-top: 1vh;
+        margin-left: 5%;
+        display: inline-flex;
+        height: 6vh;
+    }
+    .mainlogo {
+        height: 10vh;
+        /* padding-right: 70%; */
+        margin: auto;
+        display: flex;
+    }
+    .listhero{
+        margin-right: 2vw;
+        color: #cc0000;
+        
+    }
+    .barul{
+        
+            display: inline-flex;
+            list-style: none;
+        padding: 0;
+        padding-top: 1.7vh;
+    }
+    .compo {
+        margin-right: 5vw;
+        /* width: 15vw; */
+        min-width: 147px;
+    }
+    .logotxt{
+        padding-top: 0.5vh;
+    }
 }

@@ -5,39 +5,43 @@
     margin-left: 5%;
 }
 .cont{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-color:#41414163;
     border: 1px solid ;
     width: 75vw;
     margin: 1vh 11vw;
     border-radius: 5px;
+    /* color: black; */
 }
 .formm{
     display: block;
     height: 21vh;
     /* padding: 10vh 0; */
     padding-top: 9vh;
+    padding-bottom: 4vh;
     
     /* background: blue; */
 }
 input{
     margin: 12px 33px;
-    border-radius: 6px;
+    border-radius: 1px;
     /* border: none; */
-    height: 21px;
+    height: 4vh;
+    /* height: 21px; */
     width: 40vw;
     border: .1px solid;
 }
 button{
     border: .1px solid;
     /* border: none; */
-    border-radius: 5px;
-    width: 14vw;
+    border-radius: 2px;
+    width: 12vw;
     height: 4vh;
     min-width: 84px;
     background-color: white;
 }
 button:hover{
-    background-color: rgb(96, 96, 255);
+    background-color:maroon;
     color: white;
     transition: 0.5s;
     border-radius: .5px solid black;
@@ -51,7 +55,92 @@ button:hover{
     font-weight: regular 400 Italic ;
     /* font-size: medium; */
 }
-@media screen and (max-width:500px) {
+.homebdy{
+    background-image:url('https://www.parcelforce.com/profiles/pfwprofile/themes/parcelforce/images/background.jpg') ;
+}
+.contnr{
+    /* background-color: aqua; */
+    width: 60%;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+.bar1{
+    background-image: linear-gradient(300deg,#adadad 10%,rgba(190,190,190,.4) 100%);
+    height: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #F0F0F0;;
+    display: flex;
+    padding-top: 2vh;
+    padding-left: 3vw;
+}
+.bar2{
+    background-color: #4d4d4d;
+    color: white;
+}
+.box2text{
+    display: flex;
+    margin-left: 2vw;
+    /* padding-bottom: 2vh; */
+    height: 4vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: regular 400 Italic ;
+}
+.box3{
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2vh;
+    text-align: left;
+    padding-bottom: 2vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: regular 400 Italic ;
+    /* padding-bottom: 10vh; */
+}
+.footer {
+    width: 100%;
+    display: inline-flex;
+    background-color: #333;
+    color: #ffff;
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+    margin: auto;
+    justify-content: center;
+}
+.sec1{
+        /* background-color: aqua; */
+        height: 30vh;
+        width: 25%;
+        text-align: left;
+        padding-bottom: 4vh;
+    }
+.grow{
+    background-color: #4d4d4d;
+    /* height: 5vh; */
+    padding-top: 2.3vh;
+    padding-bottom: 2.3vh;
+    color: #fff;
+}
+.endung{
+    background-color: #333;
+    color: #ffff;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    /* padding-right: 5%; */
+    /* margin: auto; */
+    /* justify-content: center; */
+}
+.formm {
+    display: block;
+    height: 30vh;
+    /* padding: 10vh 0; */
+    padding-top: 7vh;
+    padding-bottom: 2vh;
+    /* background: blue; */
+}
+@media screen and (max-width:700px) {
     .navv {
         display: inline-flex;
         /* background-color: black; */
@@ -65,4 +154,68 @@ button:hover{
         color: white;
         font-size: large;
     }
+    input {
+        padding: 2px 14px;
+        border-radius: 6px;
+        height: 23px;
+        margin: 12px 9px;
+        width: 51vw;
+    }
+    button {
+        border: 1px solid black;
+        background-color: #fff;
+        border-radius: 5px;
+        height: 3vh;
+        min-width: 84px;
+        width: 20vw;
+        color: grey;
+    }
+    .contnr {
+        /* background-color: aqua; */
+        width: 95%;
+        margin: auto;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    .box2text {
+    display: flex;
+    margin-left: 2vw;
+    /* padding-bottom: 2vh; */
+    height: 6vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: regular 400 Italic;
+}.bar1 {
+    background-image: linear-gradient(300deg,#adadad 10%,rgba(190,190,190,.4) 100%);
+    height: 8vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #F0F0F0;
+    display: flex;
+    padding-top: 2vh;
+    padding-left: 3vw;
+}
+.formm {
+    display: block;
+    height: 33vh;
+    /* padding: 10vh 0; */
+    padding-top: 6vh;
+    padding-bottom: 4vh;
+    /* background: blue; */
+}
+button {
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 3vh;
+    min-width: 84px;
+    width: 25vw;
+    color: grey;
+}
+input {
+    padding: 2px 14px;
+    border-radius: 3px;
+    height: 3vh;
+    margin: 12px 9px;
+    width: 51vw;
+}
 }

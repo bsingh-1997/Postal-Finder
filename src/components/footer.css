@@ -1,0 +1,46 @@
+.footer{
+    background-color: #333;
+    color: #ffff;
+}
+.collsp{
+    display: none;
+}
+.accordion-item {
+    background-color: #333; /* Set the background color to #333 */
+    color: #fff; /* Set the text color to #fff */
+    border: 1px solid #555; /* Optional: Add a border color */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    /* margin-bottom: 10px; Optional: Adjust margin between accordion items */
+  }
+
+  .accordion-button {
+    background-color: #333; /* Set the button background color to #333 */
+    color: #fff; /* Set the button text color to #fff */
+  }
+
+  .accordion-button:hover {
+    background-color: #555; /* Set the button hover background color to #555 */
+  }
+
+  .accordion-body {
+    background-color: #333; /* Set the body background color to #333 */
+    color: #fff; /* Set the body text color to #fff */
+  }
+@media screen and (max-width: 768px){
+    .collsp{
+        display: block;}
+        .footer{
+            display: none;
+        }
+        .ulul {
+            /* display: inline-flex; */
+            list-style: none;
+            padding-top: 2vh;
+            /* display: block ; */
+            text-align: left;
+        }
+        .lili{
+            color: #fff;
+            display: block;
+        }
+}

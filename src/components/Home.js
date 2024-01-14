@@ -64,19 +64,41 @@ const Home = () => {
   }
 
   return (
-    <div>
+    <div className='homebdy'>
+      <div className='contnr'>
+    <div className='bar1'>Postal Finder</div>
+    <div className='bar2'>
+
       <form className='formm' >
         <div>
+          <div className='box2text'>
+
+          Enter any pincode below to search post offices !
+          </div>
         <input placeholder='Search By Pincode Here !' value={imp} onChange={inpchange} />
         <button onClick={buttonpress}>Get Details</button>
         </div>
         <div>
+        <div className='box2text'>
 
+          Enter any CityName below to search post offices !
+          </div>
         <input placeholder='Search By CityName Here !' value={imp2} onChange={inpchange2} />
         <button onClick={buttonpress2}>Get Details</button>
         </div>
+        
         <div> </div>
+      
       </form>
+      <div className='box2text'>
+
+          You have limited number of searches available as it's a free version of our application!
+          <br></br>
+          </div>
+      <div className='box3'>How it works .. <br></br><hr></hr>PostFinder is your go-to platform for finding comprehensive information about post offices in any area. Whether you need to locate a specific post office or explore postal services in a particular city, PostFinder has got you covered. Simply enter the pincode or city name, and our intelligent search engine will provide you with detailed results, including addresses, contact numbers, working hours, and additional services available at each post office. With PostFinder, managing your postal needs has never been easier. Discover convenience and efficiency at your fingertips.</div>
+    </div>
+    
+      </div>
         {details &&
           details.map((i)=>(
             <div >
@@ -98,10 +120,11 @@ const Home = () => {
             </div>
           ))
         }
-        <div className='desc'>
+        {/* <div className='desc'> */}
         {/* PincodeFinder is your go-to destination for hassle-free pincode information. With just a few clicks, you can easily access comprehensive details for any pincode across the globe. Whether you're searching for a specific location, planning a delivery, or need to verify an address, PincodeFinder has got you covered. Our intuitive interface allows users to enter any pincode and instantly retrieve valuable information, including city, state, country, and additional useful details. Say goodbye to endless searches and confusion – PincodeFinder simplifies the process and ensures you have the accurate information you need, right at your fingertips. Experience convenience, reliability, and efficiency with PincodeFinder, the ultimate pincode information solution. */}
-        PostFinder is your go-to platform for finding comprehensive information about post offices in any area. Whether you need to locate a specific post office or explore postal services in a particular city, PostFinder has got you covered. Simply enter the pincode or city name, and our intelligent search engine will provide you with detailed results, including addresses, contact numbers, working hours, and additional services available at each post office. With PostFinder, managing your postal needs has never been easier. Discover convenience and efficiency at your fingertips.
-        </div>
+        {/* PostFinder is your go-to platform for finding comprehensive information about post offices in any area. Whether you need to locate a specific post office or explore postal services in a particular city, PostFinder has got you covered. Simply enter the pincode or city name, and our intelligent search engine will provide you with detailed results, including addresses, contact numbers, working hours, and additional services available at each post office. With PostFinder, managing your postal needs has never been easier. Discover convenience and efficiency at your fingertips. */}
+        {/* </div> */}
+        
     </div>
   )
 }
