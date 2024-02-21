@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Postal-Finder/static/css/main.cb4b4afc.css",
-    "main.js": "/Postal-Finder/static/js/main.3b8f0085.js",
+    "main.css": "/Postal-Finder/static/css/main.85fe2909.css",
+    "main.js": "/Postal-Finder/static/js/main.9227e71b.js",
     "static/js/787.fb7b1337.chunk.js": "/Postal-Finder/static/js/787.fb7b1337.chunk.js",
     "static/media/imgimg.png": "/Postal-Finder/static/media/imgimg.543dd69dd5e009daec88.png",
     "static/media/logo.svg": "/Postal-Finder/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Postal-Finder/index.html",
-    "main.cb4b4afc.css.map": "/Postal-Finder/static/css/main.cb4b4afc.css.map",
-    "main.3b8f0085.js.map": "/Postal-Finder/static/js/main.3b8f0085.js.map",
+    "main.85fe2909.css.map": "/Postal-Finder/static/css/main.85fe2909.css.map",
+    "main.9227e71b.js.map": "/Postal-Finder/static/js/main.9227e71b.js.map",
     "787.fb7b1337.chunk.js.map": "/Postal-Finder/static/js/787.fb7b1337.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4b4afc.css",
-    "static/js/main.3b8f0085.js"
+    "static/css/main.85fe2909.css",
+    "static/js/main.9227e71b.js"
   ]
 }
