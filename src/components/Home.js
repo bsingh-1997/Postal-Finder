@@ -75,8 +75,13 @@ const Home = () => {
 
           Enter any pincode below to search post offices !
           </div>
+
+          <div className='box11'>
+
         <input placeholder='Search By Pincode Here !' value={imp} onChange={inpchange} />
         <button onClick={buttonpress}>Get Details</button>
+          </div>
+        
         </div>
         <div>
         <div className='box2text'>
