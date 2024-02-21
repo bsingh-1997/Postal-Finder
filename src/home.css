@@ -189,16 +189,17 @@ button:hover{
         width: 20vw;
         color: grey;
     } */
-    button {
+    button{
         border: 1px solid black;
         background-color: #fff;
         border-radius: 5px;
         height: 3vh;
-        min-width: 100px;
+        min-width: 90px;
         width: 25vw;
         color: grey;
         justify-content: center;
-        display: inline-flex;
+        /* background-color: aqua; */
+        /* display: inline-flex; */
         align-items: center;
     }
     .contnr {

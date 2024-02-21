@@ -79,7 +79,7 @@ const Home = () => {
           <div className='box11'>
 
         <input placeholder='Search By Pincode Here !' value={imp} onChange={inpchange} />
-        <button onClick={buttonpress}>Get Details</button>
+        <button onClick={buttonpress}>Search</button>
           </div>
         
         </div>
@@ -89,7 +89,7 @@ const Home = () => {
           Enter any CityName below to search post offices !
           </div>
         <input placeholder='Search By CityName Here !' value={imp2} onChange={inpchange2} />
-        <button onClick={buttonpress2}>Get Details</button>
+        <button onClick={buttonpress2}>Search</button>
         </div>
         
         <div> </div>
